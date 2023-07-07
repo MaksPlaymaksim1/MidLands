@@ -1,0 +1,30 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Midlands RP",
+    "description": "An Addon for Midlands Server.",
+    "uuid": "18b82f2f-5e11-45b9-914c-8a4289975de5",
+    "min_engine_version": [
+      1,
+      20,
+      0
+    ],
+    "version": [
+      1,
+      0,
+      0
+    ]
+  },
+  "modules": [
+    {
+      "description": "Resources for Midlands",
+      "type": "resources",
+      "uuid": "89853e62-b351-4baf-bd05-95c1c985f06f",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    }
+  ]
+}
