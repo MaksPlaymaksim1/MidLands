@@ -1,0 +1,8 @@
+{
+  "resource_pack_name": "midlands",
+  "texture_data": {
+     "magic_wand": {
+      "texture": "items/magic_wand"
+     }
+  }
+}
