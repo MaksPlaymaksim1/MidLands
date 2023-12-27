@@ -1,0 +1,66 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Midlands BP",
+    "description": "An Addon for Midlands Server.",
+    "uuid": "1b75ca82-407d-40b5-85ea-5f2fc97fd0d4",
+    "min_engine_version": [
+      1,
+      20,
+      0
+    ],
+    "version": [
+      1,
+      0,
+      0
+    ]
+  },
+  "modules": [
+    {
+      "description": "Behaviours for Midlands",
+      "type": "data",
+      "uuid": "ea5948d4-f751-499b-86f3-9f628efd1408",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "script",
+      "language": "javascript",
+      "uuid": "f1b97c5b-fdc3-4507-839e-a986d878ba3f",
+      "entry": "scripts/main.js",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "aea1bf09-34ef-4bc9-b21c-1fcbb52c4a02",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "module_name": "@minecraft/server",
+      "version": "1.8.0-beta"
+    },
+    {
+      "module_name": "@minecraft/server-gametest",
+      "version": "1.0.0-beta"
+    },
+    {
+      "module_name": "@minecraft/server-ui",
+      "version": "1.2.0-beta"
+    }
+  ],
+  "capabilities": [
+    "script_eval"
+  ]
+}
