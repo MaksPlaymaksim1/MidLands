@@ -1,0 +1,20 @@
+{
+	"format_version": "1.19.0",
+	"minecraft:attachable": {
+		"description": {
+			"identifier": "midlands:magic_wand",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/items/magic_wand"
+			},
+			"geometry": {
+				"default": "geometry.magic_wand"
+			},
+			"render_controllers": [
+				"controller.render.magic_wand"
+			]
+  }
+	}
+}
